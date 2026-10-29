@@ -1,0 +1,12 @@
+2026-10-16 20:21:59,175 INFO     ***Starting conversion (gemlog version 1.10.1)***
+2026-10-16 20:21:59,176 INFO     Dependencies: Python 3.11.15, obspy 1.5.0, pandas 2.3.3, scipy 1.17.1, numpy 1.26.4
+2026-10-16 20:21:59,180 INFO     platform.uname(): Linux, 6.8.0-146-generic, #146-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  3 16:12:30 UTC 2026, x86_64, x86_64
+2026-10-16 20:21:59,180 INFO     Call: gemconvert 
+2026-10-16 20:21:59,180 INFO     inputdir="raw"
+2026-10-16 20:21:59,180 INFO     outputdir="mseed"
+2026-10-16 20:21:59,181 INFO     serial number list = ['10023', '10024']
+2026-10-16 20:21:59,181 INFO     format="MSEED", length_hours=24, test=False, parallel=1
+2026-10-16 20:21:59,203 INFO     Beginning 10023
+2026-10-16 20:22:01,330 INFO     Completed 10023
+2026-10-16 20:22:01,330 INFO     Beginning 10024
+2026-10-16 20:22:01,964 INFO     Completed 10024

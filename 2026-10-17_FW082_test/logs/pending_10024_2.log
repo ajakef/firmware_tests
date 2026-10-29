@@ -1,0 +1,11 @@
+#AspenLog0.5
+#Data are in the miniSEED files with the same name plus a channel code. This log holds everything else.
+#T,tcxoSec,utcSec,sync: time of the next data sample (center of the ADC filter window); sync 0=no GPS time yet (utcSec blank), 1=GPS locked, 2=GPS holdover
+#G,msPPS,msLag,yr,mo,day,hr,min,sec,lat,lon,z,HDOP,num_sats,age_ms
+#H,tcxoSec,utcSec,batt,V,mA,tempC,RH,Vcc,maxSampleDiff_ms,maxReadTime_us,maxWriteTime_us,maxDrainTime_us,drainDiff_ms,gpsOn,sync,timeErr_us,tcxo_ppm,adc_ppm,maxRetimeTime_us,droppedRecords
+#N,network,station,location,channel1,channel2,channel3,channel4 (SEED codes in the miniSEED file)
+#miniSEED timing quality: 100 GPS locked, 90 GPS holdover, 80 recorded before the first GPS fix and timed from it, 0 no GPS time (time since startup, flagged questionable)
+S,10024
+#Firmware0.8.2-0_2026-10-17T18:49:09Z
+C,128,64,64,64,5,1,15,20,1,0,1
+N,,10024,,HDF,EHZ,EHN,EHE

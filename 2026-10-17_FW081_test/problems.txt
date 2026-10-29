@@ -1,0 +1,7 @@
+All date/time codes in file names for log and miniSEED files need to have zero-padding in month/date/hour/min/sec. And, seconds and minutes must not be omitted. Examples of violations: 20261017T41855_10024.mseed and 20261017T800_10024.mseed
+
+Use format YYYYMMDD_HHMMSS.NN.SSSSS.LL.CCC.mseed for filenames, where it is permissible for network/station/location/channel to be shorter than the number of spaces allowed for them. 
+
+Try splitting miniSEED files among channels. It's too annoying to have to deal with the seismic when I just want to look at infrasound.
+
+When re-sampling in firmware, are you accounting for time delays in the ADC and between ADC channels? If not, do so.
