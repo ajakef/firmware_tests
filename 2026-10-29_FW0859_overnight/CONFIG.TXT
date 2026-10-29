@@ -1,0 +1,16 @@
+128 # channel 1 gain
+64 # channel 2 gain
+64 # channel 3 gain
+64 # channel 4 gain
+400 # sample rate
+1 # gps_mode
+15 # gps_cycle_minutes
+20 # gps_quota
+1 # use_compression (no longer affects the card's files, but keep this line so the lines below are read in order)
+- # network code (2 characters at most; - means blank)
+- # station code (5 characters at most; - means the serial number)
+- # location code (2 characters at most; - means blank)
+- # channel 1 code (3 characters; - means HDF)
+- # channel 2 code (3 characters; - means EHZ)
+- # channel 3 code (3 characters; - means EHN)
+- # channel 4 code (3 characters; - means EHE)
